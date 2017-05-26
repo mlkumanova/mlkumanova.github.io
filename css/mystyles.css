@@ -1,0 +1,109 @@
+
+#img {
+    background-image: url(../img/bg.jpeg);
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    background-size: cover;
+}
+
+#infoDiv {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgba(15, 15, 15, 0.67);
+    overflow-wrap: break-word;
+    -webkit-box-shadow: 0px -9px 58px 6px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 0px -9px 58px 6px rgba(0, 0, 0, 0.77);
+    box-shadow: 0px -9px 58px 6px rgba(0, 0, 0, 0.77);
+}
+
+#logo {
+    font-family: 'Pacifico', cursive;
+
+}
+
+#info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.16), rgb(255, 255, 255), rgba(98, 98, 98, 0.31));
+
+}
+
+.infoDivContent {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#countdownDiv {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#countdown {
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 55px;
+}
+
+p #countdownText {
+    font-size: 20px;
+}
+
+#inputEmail {
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+#submitBut {
+    background: transparent linear-gradient(to bottom, #85a84c 0%, #546c33 100%);
+    border-color: rgb(84, 108, 51);
+    border-radius: 30px;
+    margin-top: -3px;
+    margin-left: -20px;
+    padding-right: 10px;
+}
+
+#divInputBut {
+    padding-top: 4px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:hover#fb {
+    color: #3B5998;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover#in {
+    color: #0077B5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover#tw {
+    color: #1DA1F2;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+    color: rgba(255, 255, 255, 0.56);
+}
